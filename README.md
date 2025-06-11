@@ -41,7 +41,7 @@ print(result)
  Output: [[58, 64], [139, 154]]
 ```
 
-## What Makes This Library Special
+# What Makes This Library Special
 When everything goes right, you'll see:
 ✅ Matrix multiplication successful!
 When things go wrong, you get helpful (and entertaining) error messages created with ASCII art!
@@ -52,25 +52,26 @@ When things go wrong, you get helpful (and entertaining) error messages created 
 Python 3.6 or higher
 No external dependencies
 
-# Matrix Multiplication Rules
+## Matrix Multiplication Rules
 
 Matrix A (m×n) can be multiplied by Matrix B (n×p) to produce Matrix C (m×p)
 The number of columns in A must equal the number of rows in B
 Result matrix dimensions: rows of A × columns of B
 
-# License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-Author
+
+## Version History
+
+1.0.4 - Current stable release.
+Includes comprehensive error handling and ASCII art animations.
+Supports Python 3.6+.
+
+# Author
 ALU Advanced Linear Algebra PCA Group 19
 
-
 # Acknowledgments
+Created as part of the Advanced Linear Algebra coursework.
+Thanks to the ALU community for support and feedback.
 
-Created as part of the Advanced Linear Algebra coursework
-Thanks to the ALU community for support and feedback
 
-# Version History
-
-1.0.4 - Current stable release
-Includes comprehensive error handling and ASCII art animations
-Supports Python 3.6+
