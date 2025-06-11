@@ -19,7 +19,7 @@ cd ADVANCED-LINEAR-ALGEBRA-PCA-Group-19
 pip install.
 ```
 
-Quick Start
+## Quick Start
 ```
 from alumath_matrixlib import matrix_multiply
 
@@ -34,12 +34,31 @@ matrix_b = [
     [9, 10],
     [11, 12]
 ]
-
-# Multiply them!
+Multiply them!
 result = matrix_multiply(matrix_a, matrix_b)
 print(result)
  Output: [[58, 64], [139, 154]]
 ```
+# Usage Examples
+## Basic Matrix Multiplication
+```
+from alumath_matrixlib import matrix_multiply
+```
+
+### 2x2 matrices
+a = [[1, 2], [3, 4]]
+b = [[5, 6], [7, 8]]
+
+result = matrix_multiply(a, b)
+**Returns**: [[19, 22], [43, 50]]
+
+### Different-Sized Matrices
+python# 3x2 and 2x4 matrices
+a = [[1, 2], [3, 4], [5, 6]]
+b = [[1, 2, 3, 4], [5, 6, 7, 8]]
+
+result = matrix_multiply(a, b)
+ **Returns**: [[11, 14, 17, 20], [23, 30, 37, 44], [35, 46, 57, 68]]
 
 # What Makes This Library Special
 When everything goes right, you'll see:
