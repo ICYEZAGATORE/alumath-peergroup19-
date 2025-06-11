@@ -1,4 +1,4 @@
-0# Alumath-Matrix Library
+# Alumath-Matrix Library
 A simple matrix multiplication library was created as part of an Advanced Linear Algebra project.
 
 # Features
@@ -44,7 +44,7 @@ print(result)
 ```
 from alumath_matrixlib import matrix_multiply
 ```
-2x2 matrices
+**2x2 matrices**
 ```
 a = [[1, 2], [3, 4]]
 
