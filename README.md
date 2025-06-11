@@ -1,5 +1,5 @@
-# Alumath-Matrix Libary
-A simple matrix multiplication library as created as part of an Advanced Linear Algebra project.
+# Alumath-Matrix Library
+A simple matrix multiplication library was created as part of an Advanced Linear Algebra project.
 
 # Features
 1. Matrix Multiplication: Performs standard matrix multiplication with proper validation.Contains creative error messages and ASCII art animations
@@ -8,14 +8,19 @@ A simple matrix multiplication library as created as part of an Advanced Linear 
 
 # Installation
 From PyPI (Recommended)
+```
 pip install alumath-matrixlib
+```
 
 From Source
+```
 git clone https://github.com/Pam-Pam29/ADVANCED-LINEAR-ALGEBRA-PCA-Group-19.git
 cd ADVANCED-LINEAR-ALGEBRA-PCA-Group-19
-pip install .
+pip install.
+```
 
 Quick Start
+```
 from alumath_matrixlib import matrix_multiply
 
 # Define your matrices
@@ -33,16 +38,12 @@ matrix_b = [
 # Multiply them!
 result = matrix_multiply(matrix_a, matrix_b)
 print(result)
-# Output: [[58, 64], [139, 154]]
+ Output: [[58, 64], [139, 154]]
+```
 
 ## What Makes This Library Special
 When everything goes right, you'll see:
 ✅ Matrix multiplication successful!
-
- /\_/\
-( o.o )
- > ^ <
-
 When things go wrong, you get helpful (and entertaining) error messages created with ASCII art!
 
 # Technical Details
@@ -65,8 +66,7 @@ ALU Advanced Linear Algebra PCA Group 19
 
 # Acknowledgments
 
-Created as part of Advanced Linear Algebra coursework
-Inspired by the need to make mathematical operations more engaging
+Created as part of the Advanced Linear Algebra coursework
 Thanks to the ALU community for support and feedback
 
 # Version History
