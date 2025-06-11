@@ -38,6 +38,7 @@ print(result)
 ## What Makes This Library Special
 When everything goes right, you'll see:
 ✅ Matrix multiplication successful!
+
  /\_/\
 ( o.o )
  > ^ <
