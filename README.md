@@ -54,7 +54,7 @@ result = matrix_multiply(a, b)
 **Returns**: [[19, 22], [43, 50]]
 
 ### Different-Sized Matrices
-** 3x2 and 2x4 matrices** 
+**3x2 and 2x4 matrices**
 
 a = [[1, 2], [3, 4], [5, 6]]
 b = [[1, 2, 3, 4], [5, 6, 7, 8]]
@@ -66,6 +66,7 @@ result = matrix_multiply(a, b)
 # What Makes This Library Special
 When everything goes right, you'll see:
 ✅ Matrix multiplication successful!
+
 When things go wrong, you get helpful (and entertaining) error messages created with ASCII art!
 
 # Technical Details
@@ -77,7 +78,9 @@ No external dependencies
 ## Matrix Multiplication Rules
 
 Matrix A (m×n) can be multiplied by Matrix B (n×p) to produce Matrix C (m×p)
+
 The number of columns in A must equal the number of rows in B
+
 Result matrix dimensions: rows of A × columns of B
 
 ## License
