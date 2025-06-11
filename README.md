@@ -50,14 +50,17 @@ a = [[1, 2], [3, 4]]
 b = [[5, 6], [7, 8]]
 
 result = matrix_multiply(a, b)
+
 **Returns**: [[19, 22], [43, 50]]
 
 ### Different-Sized Matrices
-python# 3x2 and 2x4 matrices
+** 3x2 and 2x4 matrices** 
+
 a = [[1, 2], [3, 4], [5, 6]]
 b = [[1, 2, 3, 4], [5, 6, 7, 8]]
 
 result = matrix_multiply(a, b)
+
  **Returns**: [[11, 14, 17, 20], [23, 30, 37, 44], [35, 46, 57, 68]]
 
 # What Makes This Library Special
@@ -67,8 +70,8 @@ When things go wrong, you get helpful (and entertaining) error messages created 
 
 # Technical Details
 ## Requirements
-
 Python 3.6 or higher
+
 No external dependencies
 
 ## Matrix Multiplication Rules
@@ -84,6 +87,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 1.0.4 - Current stable release.
 Includes comprehensive error handling and ASCII art animations.
+
 Supports Python 3.6+.
 
 # Author
@@ -91,6 +95,7 @@ ALU Advanced Linear Algebra PCA Group 19
 
 # Acknowledgments
 Created as part of the Advanced Linear Algebra coursework.
+
 Thanks to the ALU community for support and feedback.
 
 
